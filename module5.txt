@@ -1,27 +1,3 @@
-
-R version 3.3.3 (2017-03-06) -- "Another Canoe"
-Copyright (C) 2017 The R Foundation for Statistical Computing
-Platform: x86_64-apple-darwin13.4.0 (64-bit)
-
-R is free software and comes with ABSOLUTELY NO WARRANTY.
-You are welcome to redistribute it under certain conditions.
-Type 'license()' or 'licence()' for distribution details.
-
-  Natural language support but running in an English locale
-
-R is a collaborative project with many contributors.
-Type 'contributors()' for more information and
-'citation()' on how to cite R or R packages in publications.
-
-Type 'demo()' for some demos, 'help()' for on-line help, or
-'help.start()' for an HTML browser interface to help.
-Type 'q()' to quit R.
-
-[R.app GUI 1.69 (7328) x86_64-apple-darwin13.4.0]
-
-[Workspace restored from /Users/jasmi/.RData]
-[History restored from /Users/jasmi/.Rapp.history]
-
 > A = matrix(1:100, nrow=10)
 > B = matrix(1:1000, nrow=10)
 > t(A)
@@ -387,9 +363,3 @@ Type 'q()' to quit R.
 [100,] 982081 984064 986049 988036 990025 992016 994009 996004 998001 1000000
 > det(t(NewA))
 [1] -3.001325e-81
-2023-02-12 12:23:32.451 R[63690:2139425] +[CATransaction synchronize] called within transaction
-2023-02-12 12:23:41.660 R[63690:2139425] +[CATransaction synchronize] called within transaction
-2023-02-12 12:23:43.945 R[63690:2139425] +[CATransaction synchronize] called within transaction
-2023-02-12 12:23:45.593 R[63690:2139425] +[CATransaction synchronize] called within transaction
-2023-02-12 12:23:45.680 R[63690:2139425] +[CATransaction synchronize] called within transaction
-> 
